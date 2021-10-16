@@ -55,6 +55,4 @@ def item8():
             break
     print('separados')
 
-    listafinal = [dictgeral]
-    print(jsonify(listafinal))
-    return (jsonify(listafinal))
+    return (jsonify(dictgeral))
