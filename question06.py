@@ -5,6 +5,7 @@ def item6():
     data = pd.read_csv('dadosvoos_2007-x2.csv')
     avioes = data['TailNum'].unique()
     voosPorAeronave = {"VoosPorAeronave":{}}
+    print('importado')
 
     for i in avioes:
         result = len(data[data['TailNum']==i])
